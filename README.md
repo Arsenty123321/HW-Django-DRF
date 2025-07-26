@@ -1,7 +1,8 @@
 # HW-Django-DRF
 Home Work Django-DRF
 
-##HW-1
+## HW-1, HW-2
+
 
 ### Предварительные требования
 - Python 3.11
