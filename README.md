@@ -50,7 +50,7 @@ poetry run ./manage.py csu
 ```
 # Загрузка моделей из фикстуры с тестовыми данными
 # Для приложения lsm:
-poetry run ./manage.py loaddata lms_model_fixture.json
+poetry run ./manage.py loaddata lms_model_fixture
 
 # Для приложения users:
 poetry run ./manage.py loaddata users_model_fixture
