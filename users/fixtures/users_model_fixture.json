@@ -1,0 +1,98 @@
+[
+{
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+        "password": "12345",
+        "last_login": null,
+        "is_superuser": false,
+        "first_name": "",
+        "last_name": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-07-26T22:43:34.076Z",
+        "email": "vasya.super@super.ru",
+        "phone_number": null,
+        "city": null,
+        "avatar": "",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "pk": 3,
+    "fields": {
+        "password": "12345",
+        "last_login": null,
+        "is_superuser": false,
+        "first_name": "",
+        "last_name": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-07-26T22:44:45.895Z",
+        "email": "nina.big@verybig.ru",
+        "phone_number": null,
+        "city": null,
+        "avatar": "",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "pk": 4,
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$z8rT03yL8QIXYvTcWeP6Vr$HjpjYFK8DUmps2nWAL8vFaNfNNlYgJkCUJG4yqgrrWg=",
+        "last_login": "2025-07-26T23:05:14.209Z",
+        "is_superuser": true,
+        "first_name": "",
+        "last_name": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2025-07-26T23:04:37.759Z",
+        "email": "admin",
+        "phone_number": null,
+        "city": null,
+        "avatar": "",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.payments",
+    "pk": 1,
+    "fields": {
+        "user": 1,
+        "payment_date": "2025-07-26T23:05:51.974Z",
+        "course": 4,
+        "lesson": null,
+        "amount": "120000.00",
+        "method": "cash"
+    }
+},
+{
+    "model": "users.payments",
+    "pk": 2,
+    "fields": {
+        "user": 1,
+        "payment_date": "2025-07-26T23:06:44.157Z",
+        "course": 1,
+        "lesson": 1,
+        "amount": "7000.00",
+        "method": "cash"
+    }
+},
+{
+    "model": "users.payments",
+    "pk": 3,
+    "fields": {
+        "user": 3,
+        "payment_date": "2025-07-26T23:07:18.156Z",
+        "course": null,
+        "lesson": 1,
+        "amount": "7000.00",
+        "method": "transfer_to_account"
+    }
+}
+]

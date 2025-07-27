@@ -1,0 +1,108 @@
+[
+{
+    "model": "lms.course",
+    "pk": 1,
+    "fields": {
+        "course_name": "NC",
+        "course_description": "Изучение серебристых облаков",
+        "course_preview": ""
+    }
+},
+{
+    "model": "lms.course",
+    "pk": 4,
+    "fields": {
+        "course_name": "Водный туризм",
+        "course_description": "Изучение водного туризма по рекам России",
+        "course_preview": ""
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 1,
+    "fields": {
+        "lesson_name": "Урок 1",
+        "lesson_description": "Что нуждно для наблюдений.",
+        "lesson_preview": "",
+        "link_to_the_video": "http://www.ww",
+        "course": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 2,
+    "fields": {
+        "lesson_name": "Урок 2",
+        "lesson_description": "Когда можно наблюдать.",
+        "lesson_preview": "",
+        "link_to_the_video": "http://www1.ww",
+        "course": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 4,
+    "fields": {
+        "lesson_name": "Урок 3",
+        "lesson_description": "Погодные условия.",
+        "lesson_preview": "",
+        "link_to_the_video": "http://www1.ww",
+        "course": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 5,
+    "fields": {
+        "lesson_name": "Урок 1: Реки Россиии",
+        "lesson_description": "Реки Россиии какие бывают",
+        "lesson_preview": "",
+        "link_to_the_video": "http://www1.ww",
+        "course": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 6,
+    "fields": {
+        "lesson_name": "Урок 2: Реки выбор для путешествия",
+        "lesson_description": "Как выбрать реку для путешествия",
+        "lesson_preview": "",
+        "link_to_the_video": "http://www1.ww",
+        "course": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 7,
+    "fields": {
+        "lesson_name": "Урок 3: Виды сплавов",
+        "lesson_description": "Какие вывиды сплавов по реке бывают",
+        "lesson_preview": "",
+        "link_to_the_video": "http://www1.ww",
+        "course": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 8,
+    "fields": {
+        "lesson_name": "Урок 4: Виды сплав-средств",
+        "lesson_description": "Как выбрать сплав-средство под путешествие",
+        "lesson_preview": "",
+        "link_to_the_video": "http://www1.ww",
+        "course": 4
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 9,
+    "fields": {
+        "lesson_name": "Урок 5: С чего начать подготовку к путешествию",
+        "lesson_description": "С чего начать подготовку к путешествию: цели, команда, план, снаряга, провизия, итд",
+        "lesson_preview": "",
+        "link_to_the_video": "http://www1.ww",
+        "course": 4
+    }
+}
+]

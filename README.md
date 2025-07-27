@@ -1,7 +1,8 @@
 # HW-Django-DRF
 Home Work Django-DRF
 
-##HW-1
+## HW-1, HW-2
+
 
 ### Предварительные требования
 - Python 3.11
@@ -35,4 +36,28 @@ GRANT ALL PRIVILEGES ON DATABASE mailer TO [имя_пользователя];
 ```
 # Запуск миграций
 poetry run ./manage.py migrate
+```
+
+- Создать пользователя для администрирования через WEB-UI:
+```
+# Создание администратора через кастомную команду
+# логин и пароль задается в .env файле
+
+poetry run ./manage.py csu
+```
+
+### Загрузка тестовых данных
+```
+# Загрузка моделей из фикстуры с тестовыми данными
+# Для приложения lsm:
+poetry run ./manage.py loaddata lms_model_fixture
+
+# Для приложения users:
+poetry run ./manage.py loaddata users_model_fixture
+```
+
+### Запуск проекта
+```
+# Запуск сервера
+poetry run ./manage.py runserver
 ```
