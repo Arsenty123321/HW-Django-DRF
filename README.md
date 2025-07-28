@@ -44,6 +44,12 @@ poetry run ./manage.py migrate
 # логин и пароль задается в .env файле
 
 poetry run ./manage.py csu
+
+
+# Добавление группы 'Moderators' через кастомную команду
+
+poetry run ./manage.py add_moderator_group
+
 ```
 
 ### Загрузка тестовых данных

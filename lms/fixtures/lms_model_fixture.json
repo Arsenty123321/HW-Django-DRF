@@ -3,9 +3,10 @@
     "model": "lms.course",
     "pk": 1,
     "fields": {
-        "course_name": "NC",
-        "course_description": "Изучение серебристых облаков",
-        "course_preview": ""
+        "course_name": "NC - Серебристые облака",
+        "course_description": "Изучение редкого атмосферного явления  \"серебристые облака\".",
+        "course_preview": "",
+        "owner": 3
     }
 },
 {
@@ -14,40 +15,54 @@
     "fields": {
         "course_name": "Водный туризм",
         "course_description": "Изучение водного туризма по рекам России",
-        "course_preview": ""
+        "course_preview": "",
+        "owner": 1
+    }
+},
+{
+    "model": "lms.course",
+    "pk": 6,
+    "fields": {
+        "course_name": "Курс по администрированию lms",
+        "course_description": "Курс по администрированию lms",
+        "course_preview": "",
+        "owner": 3
     }
 },
 {
     "model": "lms.lesson",
     "pk": 1,
     "fields": {
-        "lesson_name": "Урок 1",
-        "lesson_description": "Что нуждно для наблюдений.",
+        "lesson_name": "Урок 1: Что нужно для наблюдений.",
+        "lesson_description": "Что нужно для наблюдений серебристых облаков.",
         "lesson_preview": "",
         "link_to_the_video": "http://www.ww",
-        "course": 1
+        "course": 1,
+        "owner": 3
     }
 },
 {
     "model": "lms.lesson",
     "pk": 2,
     "fields": {
-        "lesson_name": "Урок 2",
-        "lesson_description": "Когда можно наблюдать.",
+        "lesson_name": "Урок 2: Когда можно наблюдать.",
+        "lesson_description": "Когда можно наблюдать серебристые облака.",
         "lesson_preview": "",
         "link_to_the_video": "http://www1.ww",
-        "course": 1
+        "course": 1,
+        "owner": 3
     }
 },
 {
     "model": "lms.lesson",
     "pk": 4,
     "fields": {
-        "lesson_name": "Урок 3",
-        "lesson_description": "Погодные условия.",
+        "lesson_name": "Урок 3: Погодные условия.",
+        "lesson_description": "Погодные условия для наблюдений.",
         "lesson_preview": "",
         "link_to_the_video": "http://www1.ww",
-        "course": 1
+        "course": 1,
+        "owner": 3
     }
 },
 {
@@ -58,7 +73,8 @@
         "lesson_description": "Реки Россиии какие бывают",
         "lesson_preview": "",
         "link_to_the_video": "http://www1.ww",
-        "course": 4
+        "course": 4,
+        "owner": 1
     }
 },
 {
@@ -69,7 +85,8 @@
         "lesson_description": "Как выбрать реку для путешествия",
         "lesson_preview": "",
         "link_to_the_video": "http://www1.ww",
-        "course": 4
+        "course": 4,
+        "owner": 1
     }
 },
 {
@@ -80,7 +97,8 @@
         "lesson_description": "Какие вывиды сплавов по реке бывают",
         "lesson_preview": "",
         "link_to_the_video": "http://www1.ww",
-        "course": 4
+        "course": 4,
+        "owner": 1
     }
 },
 {
@@ -90,8 +108,9 @@
         "lesson_name": "Урок 4: Виды сплав-средств",
         "lesson_description": "Как выбрать сплав-средство под путешествие",
         "lesson_preview": "",
-        "link_to_the_video": "http://www1.ww",
-        "course": 4
+        "link_to_the_video": "http://www1.ww.wwwww",
+        "course": 4,
+        "owner": 1
     }
 },
 {
@@ -102,7 +121,20 @@
         "lesson_description": "С чего начать подготовку к путешествию: цели, команда, план, снаряга, провизия, итд",
         "lesson_preview": "",
         "link_to_the_video": "http://www1.ww",
-        "course": 4
+        "course": 4,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 10,
+    "fields": {
+        "lesson_name": "Урок 1: Регистрация и роли",
+        "lesson_description": "Как зарегистрироваться в системе, какие роли есть у пользователей в lms системе.",
+        "lesson_preview": "",
+        "link_to_the_video": "http://www1.ww",
+        "course": 6,
+        "owner": 3
     }
 }
 ]
