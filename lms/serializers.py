@@ -7,6 +7,9 @@ class LessonSerializer(serializers.ModelSerializer):
     class Meta:
         model = Lesson
         fields = '__all__'
+        extra_kwargs = {
+            'owner': {'required': False}
+        }
 
 
 class CourseSerializer(serializers.ModelSerializer):
@@ -18,5 +21,8 @@ class CourseSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Course
-        # fields = '__all__'
-        fields = ('id','course_name', 'course_description', 'course_preview', 'course_lessons_count', 'lessons')
+        fields = ('id', 'course_name', 'course_description', 'course_preview', 'course_lessons_count', 'lessons',
+                  'owner',)
+        extra_kwargs = {
+            'owner': {'required': False}
+        }

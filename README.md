@@ -1,7 +1,7 @@
 # HW-Django-DRF
 Home Work Django-DRF
 
-## HW-1, HW-2
+## HW-1, HW-2, HW-3
 
 
 ### Предварительные требования
@@ -44,6 +44,12 @@ poetry run ./manage.py migrate
 # логин и пароль задается в .env файле
 
 poetry run ./manage.py csu
+
+
+# Добавление группы 'Moderators' через кастомную команду
+
+poetry run ./manage.py add_moderator_group
+
 ```
 
 ### Загрузка тестовых данных

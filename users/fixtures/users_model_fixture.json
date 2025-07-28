@@ -3,7 +3,7 @@
     "model": "users.user",
     "pk": 1,
     "fields": {
-        "password": "12345",
+        "password": "pbkdf2_sha256$1000000$z8rT03yL8QIXYvTcWeP6Vr$HjpjYFK8DUmps2nWAL8vFaNfNNlYgJkCUJG4yqgrrWg=",
         "last_login": null,
         "is_superuser": false,
         "first_name": "",
@@ -23,7 +23,7 @@
     "model": "users.user",
     "pk": 3,
     "fields": {
-        "password": "12345",
+        "password": "pbkdf2_sha256$1000000$z8rT03yL8QIXYvTcWeP6Vr$HjpjYFK8DUmps2nWAL8vFaNfNNlYgJkCUJG4yqgrrWg=",
         "last_login": null,
         "is_superuser": false,
         "first_name": "",
@@ -56,6 +56,28 @@
         "city": null,
         "avatar": "",
         "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "pk": 5,
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$3s6TuXEqREwKzU52CoEdZo$7OrydEizdlWD1lwXA2iBSlrucYqfgwh+AW+tOn2l4iI=",
+        "last_login": null,
+        "is_superuser": false,
+        "first_name": "",
+        "last_name": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-07-27T20:37:24Z",
+        "email": "gleb.moder@moder.ru",
+        "phone_number": null,
+        "city": null,
+        "avatar": "",
+        "groups": [
+            1
+        ],
         "user_permissions": []
     }
 },
