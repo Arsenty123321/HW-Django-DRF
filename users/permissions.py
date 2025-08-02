@@ -15,7 +15,6 @@ class IsOwner(permissions.BasePermission):
         Доступ только владельцу.
     """
     def has_object_permission(self, request, view, obj):
-        print(f"owner:{obj.owner} == user:{request.user}")
         return obj.owner == request.user
 
 
