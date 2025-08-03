@@ -1,7 +1,7 @@
 # HW-Django-DRF
 Home Work Django-DRF
 
-## HW-1, HW-2, HW-3
+## HW-1, HW-2, HW-3, HW-4
 
 
 ### Предварительные требования
@@ -66,4 +66,13 @@ poetry run ./manage.py loaddata users_model_fixture
 ```
 # Запуск сервера
 poetry run ./manage.py runserver
+```
+
+### Запуск тестов
+```
+# Запуск тестов со сбором покрытия
+poetry run coverage run --source='.' manage.py test
+
+# Генерация отчета покрытия тестами
+poetry run coverage report
 ```
