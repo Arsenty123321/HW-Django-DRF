@@ -38,6 +38,8 @@ class Payments(models.Model):
                                verbose_name='Ссылка на оплаченный урок')
     amount = models.DecimalField(decimal_places=2, max_digits=10, verbose_name='Сумма оплаты')
     method = models.CharField(max_length=20, choices=PAYMENT_CHOICES, verbose_name='Способ оплаты')
+    payment_session_id = models.CharField(max_length=255, blank=True, null=True, verbose_name='ID сессии')
+    payment_link = models.URLField(max_length=400, blank=True, null=True, verbose_name='Ссылка на оплату')
 
     def __str__(self):
         return f'Платеж {self.amount} на сумму {self.amount} от {self.user.email}'
