@@ -1,0 +1,240 @@
+[
+{
+    "model": "users.payments",
+    "pk": 1,
+    "fields": {
+        "user": 1,
+        "payment_date": "2025-07-26T23:05:51.974Z",
+        "course": 4,
+        "lesson": null,
+        "amount": "120000.00",
+        "method": "cash",
+        "payment_session_id": null,
+        "payment_link": null
+    }
+},
+{
+    "model": "users.payments",
+    "pk": 2,
+    "fields": {
+        "user": 1,
+        "payment_date": "2025-07-26T23:06:44.157Z",
+        "course": 1,
+        "lesson": 1,
+        "amount": "7000.00",
+        "method": "cash",
+        "payment_session_id": null,
+        "payment_link": null
+    }
+},
+{
+    "model": "users.payments",
+    "pk": 3,
+    "fields": {
+        "user": 3,
+        "payment_date": "2025-07-26T23:07:18.156Z",
+        "course": null,
+        "lesson": 1,
+        "amount": "7000.00",
+        "method": "transfer_to_account",
+        "payment_session_id": null,
+        "payment_link": null
+    }
+},
+{
+    "model": "users.payments",
+    "pk": 4,
+    "fields": {
+        "user": 1,
+        "payment_date": "2025-08-03T21:02:42.899Z",
+        "course": null,
+        "lesson": null,
+        "amount": "50000.00",
+        "method": "transfer_to_account",
+        "payment_session_id": null,
+        "payment_link": null
+    }
+},
+{
+    "model": "users.payments",
+    "pk": 5,
+    "fields": {
+        "user": 1,
+        "payment_date": "2025-08-03T21:06:55.575Z",
+        "course": 4,
+        "lesson": null,
+        "amount": "50000.00",
+        "method": "transfer_to_account",
+        "payment_session_id": null,
+        "payment_link": null
+    }
+},
+{
+    "model": "users.payments",
+    "pk": 6,
+    "fields": {
+        "user": 1,
+        "payment_date": "2025-08-03T21:09:45.651Z",
+        "course": 4,
+        "lesson": null,
+        "amount": "50000.00",
+        "method": "transfer_to_account",
+        "payment_session_id": "cs_test_a1l7qZAoEMun6AoleY4tfvw7wMiO2IISHdoDhpdGyYK0a0TmhNm9n4dKQW",
+        "payment_link": "https://checkout.stripe.com/c/pay/cs_test_a1l7qZAoEMun6AoleY4tfvw7wMiO2IISHdoDhpdGyYK0a0TmhNm9n4dKQW#fidkdWxOYHwnPyd1blpxYHZxWjA0V3Y9VHNCQjxfYVFsQjIzMlVqMVRxTXNjNGpnZEltRFY9N1BgQHZqamlSYz1PRlFffz18TmdWSEQyXDVcdEJTMmFsbV1oN1JHajw8aX18SWZ1V09SSVdcNTV8XUldYF1JRicpJ2N3amhWYHdzYHcnP3F3cGApJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl"
+    }
+},
+{
+    "model": "users.payments",
+    "pk": 7,
+    "fields": {
+        "user": 1,
+        "payment_date": "2025-08-03T21:10:10.350Z",
+        "course": null,
+        "lesson": null,
+        "amount": "50000.00",
+        "method": "transfer_to_account",
+        "payment_session_id": null,
+        "payment_link": null
+    }
+},
+{
+    "model": "users.payments",
+    "pk": 8,
+    "fields": {
+        "user": 1,
+        "payment_date": "2025-08-03T21:29:22.104Z",
+        "course": 1,
+        "lesson": null,
+        "amount": "50000.00",
+        "method": "transfer_to_account",
+        "payment_session_id": "cs_test_a1D4pPhzSg6OHWE075fzQMiWILbfF6LH5qVmjcWeFTWOaS5MYDDH5akbfh",
+        "payment_link": "https://checkout.stripe.com/c/pay/cs_test_a1D4pPhzSg6OHWE075fzQMiWILbfF6LH5qVmjcWeFTWOaS5MYDDH5akbfh#fidkdWxOYHwnPyd1blpxYHZxWjA0V3Y9VHNCQjxfYVFsQjIzMlVqMVRxTXNjNGpnZEltRFY9N1BgQHZqamlSYz1PRlFffz18TmdWSEQyXDVcdEJTMmFsbV1oN1JHajw8aX18SWZ1V09SSVdcNTV8XUldYF1JRicpJ2N3amhWYHdzYHcnP3F3cGApJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl"
+    }
+},
+{
+    "model": "users.payments",
+    "pk": 9,
+    "fields": {
+        "user": 1,
+        "payment_date": "2025-08-03T21:30:09.507Z",
+        "course": 1,
+        "lesson": null,
+        "amount": "50000.00",
+        "method": "transfer_to_account",
+        "payment_session_id": "cs_test_a1BZQ3OO3BiR2LCfOOZy2GmQMVIZ4iSc8UeALN8ROU3X6kjAnSLIn8MWTr",
+        "payment_link": "https://checkout.stripe.com/c/pay/cs_test_a1BZQ3OO3BiR2LCfOOZy2GmQMVIZ4iSc8UeALN8ROU3X6kjAnSLIn8MWTr#fidkdWxOYHwnPyd1blpxYHZxWjA0V3Y9VHNCQjxfYVFsQjIzMlVqMVRxTXNjNGpnZEltRFY9N1BgQHZqamlSYz1PRlFffz18TmdWSEQyXDVcdEJTMmFsbV1oN1JHajw8aX18SWZ1V09SSVdcNTV8XUldYF1JRicpJ2N3amhWYHdzYHcnP3F3cGApJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl"
+    }
+},
+{
+    "model": "users.payments",
+    "pk": 10,
+    "fields": {
+        "user": 1,
+        "payment_date": "2025-08-03T21:32:14.391Z",
+        "course": 1,
+        "lesson": null,
+        "amount": "50000.00",
+        "method": "transfer_to_account",
+        "payment_session_id": "cs_test_a1d4nFd1mkGCDnW5PDn8MKnQ3Zo0BjHtdqUCs6l0glCCxq5bWlTlfaykhe",
+        "payment_link": "https://checkout.stripe.com/c/pay/cs_test_a1d4nFd1mkGCDnW5PDn8MKnQ3Zo0BjHtdqUCs6l0glCCxq5bWlTlfaykhe#fidkdWxOYHwnPyd1blpxYHZxWjA0V3Y9VHNCQjxfYVFsQjIzMlVqMVRxTXNjNGpnZEltRFY9N1BgQHZqamlSYz1PRlFffz18TmdWSEQyXDVcdEJTMmFsbV1oN1JHajw8aX18SWZ1V09SSVdcNTV8XUldYF1JRicpJ2N3amhWYHdzYHcnP3F3cGApJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl"
+    }
+},
+{
+    "model": "users.payments",
+    "pk": 11,
+    "fields": {
+        "user": 1,
+        "payment_date": "2025-08-03T21:37:56.468Z",
+        "course": 1,
+        "lesson": null,
+        "amount": "5000.00",
+        "method": "transfer_to_account",
+        "payment_session_id": "cs_test_a1Ba5c7v5rDStYvYPctGKiQvYXvliQ09tPIrB6W8kjca1bsx7ZFWyngSZS",
+        "payment_link": "https://checkout.stripe.com/c/pay/cs_test_a1Ba5c7v5rDStYvYPctGKiQvYXvliQ09tPIrB6W8kjca1bsx7ZFWyngSZS#fidkdWxOYHwnPyd1blpxYHZxWjA0V3Y9VHNCQjxfYVFsQjIzMlVqMVRxTXNjNGpnZEltRFY9N1BgQHZqamlSYz1PRlFffz18TmdWSEQyXDVcdEJTMmFsbV1oN1JHajw8aX18SWZ1V09SSVdcNTV8XUldYF1JRicpJ2N3amhWYHdzYHcnP3F3cGApJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl"
+    }
+},
+{
+    "model": "users.payments",
+    "pk": 12,
+    "fields": {
+        "user": 1,
+        "payment_date": "2025-08-03T21:39:02.436Z",
+        "course": 1,
+        "lesson": null,
+        "amount": "50000.00",
+        "method": "transfer_to_account",
+        "payment_session_id": "cs_test_a1vYK9rHJEDHiygKAnMMo9k3qg0asvljfjJSd2iCe7QnGGn45OZQ2sNlnY",
+        "payment_link": "https://checkout.stripe.com/c/pay/cs_test_a1vYK9rHJEDHiygKAnMMo9k3qg0asvljfjJSd2iCe7QnGGn45OZQ2sNlnY#fidkdWxOYHwnPyd1blpxYHZxWjA0V3Y9VHNCQjxfYVFsQjIzMlVqMVRxTXNjNGpnZEltRFY9N1BgQHZqamlSYz1PRlFffz18TmdWSEQyXDVcdEJTMmFsbV1oN1JHajw8aX18SWZ1V09SSVdcNTV8XUldYF1JRicpJ2N3amhWYHdzYHcnP3F3cGApJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl"
+    }
+},
+{
+    "model": "users.payments",
+    "pk": 13,
+    "fields": {
+        "user": 1,
+        "payment_date": "2025-08-03T21:47:39.783Z",
+        "course": null,
+        "lesson": 1,
+        "amount": "50000.00",
+        "method": "transfer_to_account",
+        "payment_session_id": "cs_test_a16OjrvIAfNEVJBnAwkc72Eo2chBmdQt8ZE7NMk4VgUWZIGlnfiuNIEITT",
+        "payment_link": "https://checkout.stripe.com/c/pay/cs_test_a16OjrvIAfNEVJBnAwkc72Eo2chBmdQt8ZE7NMk4VgUWZIGlnfiuNIEITT#fidkdWxOYHwnPyd1blpxYHZxWjA0V3Y9VHNCQjxfYVFsQjIzMlVqMVRxTXNjNGpnZEltRFY9N1BgQHZqamlSYz1PRlFffz18TmdWSEQyXDVcdEJTMmFsbV1oN1JHajw8aX18SWZ1V09SSVdcNTV8XUldYF1JRicpJ2N3amhWYHdzYHcnP3F3cGApJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl"
+    }
+},
+{
+    "model": "users.payments",
+    "pk": 14,
+    "fields": {
+        "user": 1,
+        "payment_date": "2025-08-03T22:04:25.077Z",
+        "course": null,
+        "lesson": 1,
+        "amount": "50000.00",
+        "method": "transfer_to_account",
+        "payment_session_id": "cs_test_a1OMlgFwFOn3iHJhkxiW7m98snhaP0QWy1BJ6BVKXp9Jg3CUS06LhNMoNt",
+        "payment_link": "https://checkout.stripe.com/c/pay/cs_test_a1OMlgFwFOn3iHJhkxiW7m98snhaP0QWy1BJ6BVKXp9Jg3CUS06LhNMoNt#fidkdWxOYHwnPyd1blpxYHZxWjA0V3Y9VHNCQjxfYVFsQjIzMlVqMVRxTXNjNGpnZEltRFY9N1BgQHZqamlSYz1PRlFffz18TmdWSEQyXDVcdEJTMmFsbV1oN1JHajw8aX18SWZ1V09SSVdcNTV8XUldYF1JRicpJ2N3amhWYHdzYHcnP3F3cGApJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl"
+    }
+},
+{
+    "model": "users.payments",
+    "pk": 15,
+    "fields": {
+        "user": 1,
+        "payment_date": "2025-08-03T22:04:49.288Z",
+        "course": null,
+        "lesson": 1,
+        "amount": "50000.00",
+        "method": "transfer_to_account",
+        "payment_session_id": "cs_test_a1Xmlej3xZZl4OmlnfVBSWFQQ3qMGzohzZssvPhOeYD93L7HfgCeVOvWsN",
+        "payment_link": "https://checkout.stripe.com/c/pay/cs_test_a1Xmlej3xZZl4OmlnfVBSWFQQ3qMGzohzZssvPhOeYD93L7HfgCeVOvWsN#fidkdWxOYHwnPyd1blpxYHZxWjA0V3Y9VHNCQjxfYVFsQjIzMlVqMVRxTXNjNGpnZEltRFY9N1BgQHZqamlSYz1PRlFffz18TmdWSEQyXDVcdEJTMmFsbV1oN1JHajw8aX18SWZ1V09SSVdcNTV8XUldYF1JRicpJ2N3amhWYHdzYHcnP3F3cGApJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl"
+    }
+},
+{
+    "model": "users.payments",
+    "pk": 16,
+    "fields": {
+        "user": 1,
+        "payment_date": "2025-08-03T22:05:12.411Z",
+        "course": null,
+        "lesson": 1,
+        "amount": "50000.00",
+        "method": "transfer_to_account",
+        "payment_session_id": "cs_test_a1pBHzO57iybhQRntBb7BKOVSOulgu1zUPSAB2CTjoIIM0FpakfQ57Ip1j",
+        "payment_link": "https://checkout.stripe.com/c/pay/cs_test_a1pBHzO57iybhQRntBb7BKOVSOulgu1zUPSAB2CTjoIIM0FpakfQ57Ip1j#fidkdWxOYHwnPyd1blpxYHZxWjA0V3Y9VHNCQjxfYVFsQjIzMlVqMVRxTXNjNGpnZEltRFY9N1BgQHZqamlSYz1PRlFffz18TmdWSEQyXDVcdEJTMmFsbV1oN1JHajw8aX18SWZ1V09SSVdcNTV8XUldYF1JRicpJ2N3amhWYHdzYHcnP3F3cGApJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl"
+    }
+},
+{
+    "model": "users.payments",
+    "pk": 17,
+    "fields": {
+        "user": 1,
+        "payment_date": "2025-08-03T22:05:33.550Z",
+        "course": null,
+        "lesson": 1,
+        "amount": "50000.00",
+        "method": "transfer_to_account",
+        "payment_session_id": "cs_test_a1BjPpLxQvAv3V5wd5hDRKEpXo6TWfiqGiNtYfuT4MeajBJYkuTwzxfvT8",
+        "payment_link": "https://checkout.stripe.com/c/pay/cs_test_a1BjPpLxQvAv3V5wd5hDRKEpXo6TWfiqGiNtYfuT4MeajBJYkuTwzxfvT8#fidkdWxOYHwnPyd1blpxYHZxWjA0V3Y9VHNCQjxfYVFsQjIzMlVqMVRxTXNjNGpnZEltRFY9N1BgQHZqamlSYz1PRlFffz18TmdWSEQyXDVcdEJTMmFsbV1oN1JHajw8aX18SWZ1V09SSVdcNTV8XUldYF1JRicpJ2N3amhWYHdzYHcnP3F3cGApJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl"
+    }
+}
+]
