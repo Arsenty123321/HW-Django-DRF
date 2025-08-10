@@ -1,4 +1,7 @@
-from rest_framework import viewsets, status
+from datetime import timedelta
+
+from django.utils import timezone
+from rest_framework import viewsets
 from rest_framework.generics import CreateAPIView, ListAPIView, RetrieveAPIView, UpdateAPIView, DestroyAPIView, \
     get_object_or_404
 from rest_framework.permissions import IsAuthenticated
@@ -8,6 +11,7 @@ from rest_framework.views import APIView
 from lms.models import Course, Lesson, Subscription
 from lms.paginators import CoursesPaginator, LessonsPaginator
 from lms.serializers import CourseSerializer, LessonSerializer, CourseSubscriptionSerializer
+from lms.tasks import send_course_upd_notification
 from users.permissions import IsOwner, IsNotModerator, IsOwnerOrModerator, MODERATOR_GROUP_NAME
 
 
@@ -18,6 +22,15 @@ class CourseViewSet(viewsets.ModelViewSet):
 
     def perform_create(self, serializer):
         serializer.save(owner=self.request.user)
+
+    def perform_update(self, serializer):
+        instance = serializer.instance
+
+        if instance.updated_at < timezone.now() - timedelta(hours=4):
+            serializer.save()
+            send_course_upd_notification.delay(instance.id)
+        else:
+            serializer.save()
 
     def get_queryset(self):
         user = self.request.user

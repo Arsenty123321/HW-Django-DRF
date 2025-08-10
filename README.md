@@ -1,7 +1,7 @@
 # HW-Django-DRF
 Home Work Django-DRF
 
-## HW-1, HW-2, HW-3, HW-4, HW-5
+## HW-1, HW-2, HW-3, HW-4, HW-5, HW-6
 
 
 ### Предварительные требования

@@ -11,6 +11,7 @@ class Course(models.Model):
     course_preview = models.ImageField(upload_to='course_previews/', verbose_name='Превью',
                                        help_text='Загрузите превью', blank=True)
     owner = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, verbose_name='Владелец курса')
+    updated_at = models.DateTimeField(auto_now=True)
 
     def __str__(self):
         return self.course_name
