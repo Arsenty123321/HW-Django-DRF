@@ -44,7 +44,7 @@
     "pk": 4,
     "fields": {
         "password": "pbkdf2_sha256$1000000$z8rT03yL8QIXYvTcWeP6Vr$HjpjYFK8DUmps2nWAL8vFaNfNNlYgJkCUJG4yqgrrWg=",
-        "last_login": "2025-07-26T23:05:14.209Z",
+        "last_login": "2025-08-10T01:07:22.608Z",
         "is_superuser": true,
         "first_name": "",
         "last_name": "",
@@ -64,7 +64,7 @@
     "pk": 5,
     "fields": {
         "password": "pbkdf2_sha256$1000000$3s6TuXEqREwKzU52CoEdZo$7OrydEizdlWD1lwXA2iBSlrucYqfgwh+AW+tOn2l4iI=",
-        "last_login": null,
+        "last_login": "2025-08-01T01:07:22Z",
         "is_superuser": false,
         "first_name": "",
         "last_name": "",
@@ -79,42 +79,6 @@
             1
         ],
         "user_permissions": []
-    }
-},
-{
-    "model": "users.payments",
-    "pk": 1,
-    "fields": {
-        "user": 1,
-        "payment_date": "2025-07-26T23:05:51.974Z",
-        "course": 4,
-        "lesson": null,
-        "amount": "120000.00",
-        "method": "cash"
-    }
-},
-{
-    "model": "users.payments",
-    "pk": 2,
-    "fields": {
-        "user": 1,
-        "payment_date": "2025-07-26T23:06:44.157Z",
-        "course": 1,
-        "lesson": 1,
-        "amount": "7000.00",
-        "method": "cash"
-    }
-},
-{
-    "model": "users.payments",
-    "pk": 3,
-    "fields": {
-        "user": 3,
-        "payment_date": "2025-07-26T23:07:18.156Z",
-        "course": null,
-        "lesson": 1,
-        "amount": "7000.00",
-        "method": "transfer_to_account"
     }
 }
 ]

@@ -6,17 +6,19 @@
         "course_name": "NC - Серебристые облака",
         "course_description": "Изучение редкого атмосферного явления  \"серебристые облака\".",
         "course_preview": "",
-        "owner": 3
+        "owner": 3,
+        "updated_at": "2025-08-09T23:18:00.215Z"
     }
 },
 {
     "model": "lms.course",
     "pk": 4,
     "fields": {
-        "course_name": "Водный туризм",
-        "course_description": "Изучение водного туризма по рекам России",
+        "course_name": "Водный туризм 2025",
+        "course_description": "Изучение водного туризма по рекам России 2025",
         "course_preview": "",
-        "owner": 1
+        "owner": 1,
+        "updated_at": "2025-08-10T00:52:18.701Z"
     }
 },
 {
@@ -26,7 +28,8 @@
         "course_name": "Курс по администрированию lms",
         "course_description": "Курс по администрированию lms",
         "course_preview": "",
-        "owner": 3
+        "owner": 3,
+        "updated_at": "2025-08-09T23:18:00.215Z"
     }
 },
 {
@@ -135,6 +138,57 @@
         "link_to_the_video": "http://www1.ww",
         "course": 6,
         "owner": 3
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 18,
+    "fields": {
+        "lesson_name": "Урок 6: Распределение ролей",
+        "lesson_description": "Какие бывают роли кампании, и как их распределять между учасниками",
+        "lesson_preview": "",
+        "link_to_the_video": "https://www.youtube.com/123",
+        "course": 4,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.lesson",
+    "pk": 19,
+    "fields": {
+        "lesson_name": "Урок 666: Распределение ролей",
+        "lesson_description": "Какие бывают роли кампании, и как их распределять между учасниками",
+        "lesson_preview": "",
+        "link_to_the_video": "https://www.youtube.com/123",
+        "course": 4,
+        "owner": 1
+    }
+},
+{
+    "model": "lms.subscription",
+    "pk": 3,
+    "fields": {
+        "user": 1,
+        "course": 1,
+        "subscription_date": "2025-08-02T20:04:37.062Z"
+    }
+},
+{
+    "model": "lms.subscription",
+    "pk": 5,
+    "fields": {
+        "user": 1,
+        "course": 4,
+        "subscription_date": "2025-08-02T21:50:11.776Z"
+    }
+},
+{
+    "model": "lms.subscription",
+    "pk": 6,
+    "fields": {
+        "user": 5,
+        "course": 4,
+        "subscription_date": "2025-08-09T23:16:25.644Z"
     }
 }
 ]
