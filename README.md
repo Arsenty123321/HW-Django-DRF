@@ -1,6 +1,6 @@
 ## Home Work Django-DRF + Docker
 ### DRF: HW-1, HW-2, HW-3, HW-4, HW-5, HW-6
-### Docker: HW1 
+### Docker: HW1-Docker_Compose, HW2-CI_CD_GitHub_Actions
 
 ---
 # Запуск с помощью docker-compose
