@@ -1,10 +1,10 @@
 from django.core.management import BaseCommand
-from django.contrib.auth.models import Group, Permission
+from django.contrib.auth.models import Group
 
-import os
 from dotenv import load_dotenv
 
 load_dotenv(override=True)
+
 
 class Command(BaseCommand):
     def handle(self, *args, **kwargs):
