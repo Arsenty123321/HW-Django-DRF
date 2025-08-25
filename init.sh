@@ -21,4 +21,4 @@ if [ ! -f .moderator_group_created ]; then
 fi
 
 # Запуск основного приложения
-exec "$@"
+exec sh -c 'python manage.py collectstatic --noinput && gunicorn config.wsgi:application --bind 0.0.0.0:8000'
