@@ -3,7 +3,44 @@
 ### Docker: HW1-Docker_Compose, HW2-CI_CD_GitHub_Actions
 
 ---
-# Запуск с помощью docker-compose
+# Деплой на удаленный сервер
+### Первичная подготовка сервера (Ubuntu):
+- Обновите дистрибутив ОС
+```commandline
+sudo apt update
+sudo apt upgrade
+```
+- Настройте сетевой экран
+```commandline
+sudo ufw enable
+sudo ufw allow 22/tcp
+sudo ufw allow 443/tcp
+sudo ufw allow 80/tcp
+```
+- Установите docker следуя инструкциям из официальной документации:  
+https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository
+- Установите docker-compose
+```commandline
+apt install docker-compose
+```
+- Создайте нового пользователя для деплоя и запуска WEB приложения и добавьте его в группу docker:
+```commandline
+adduser <имя_пользователя>
+sudo usermod -aG docker <имя_пользователя>
+```
+- Сгенерируйте ключ для доступа по ssh
+```commandline
+ssh-keygen -t ed25519 -f <имя_ключа>
+```
+публичную часть добавьте к authorized_keys пользователя на удаленном сервере, а приватную в переменные Actions secrets and variables для github action 
+
+### Последующий деплой происходит автоматически
+При событиях [push, pull_request], запускается CI/CD github actions у которого последовательно выполняются стадии:
+- lint (линтер flake8)
+- test (pytest django)
+- deploy (деплой кода на сервер, сборка и перезапуск контейнеров)
+
+# Запуск с помощью docker-compose (локальная разработка)
 ## Настройка окружения и запуск с помощью docker-compose
 #### Установка компонентов
 - Установите docker для вашего дистрибутива ОС
@@ -66,7 +103,7 @@ docker-compose exec backend python ./manage.py loaddata users_payments_fixture
 
 ---
 
-## Настройка окружения для запуска на хосте (без docker)
+## Настройка окружения для запуска на локально хосте (без docker)
 #### Предварительные требования
 - Python 3.11
 - PostgreSQL >=14
@@ -120,13 +157,13 @@ poetry run ./manage.py add_moderator_group
 # Соблюдайте последовательность загрузки!!!
 
 # 1. Загрузка фикстур пользователей:
-docker-compose exec backend python ./manage.py loaddata users_model_fixture
+poetry run python ./manage.py loaddata users_model_fixture
 
 # 2. Загрузка фикстур Курсов/Уроков:
-docker-compose exec backend python ./manage.py loaddata lms_model_fixture
+poetry run python ./manage.py loaddata lms_model_fixture
 
 # 3. Загрузка фикстур платежей Курсов/Уроков:
-docker-compose exec backend python ./manage.py loaddata users_payments_fixture
+poetry run python ./manage.py loaddata users_payments_fixture
 ```
 
 ### Запуск проекта
