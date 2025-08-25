@@ -3,6 +3,7 @@ from config.settings import STRIPE_API_KEY
 
 stripe.api_key = STRIPE_API_KEY
 
+
 def create_stripe_product(name: str) -> stripe.Product:
     """Создает продукт в Stripe."""
     return stripe.Product.create(name=name)
